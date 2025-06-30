@@ -1,124 +1,77 @@
-Library Hub – Book Management Web App
 
-📄  Project Description:
+# 📚 Library Hub – Book Management Web App
 
-A responsive web-based Library Management Interface built using HTML, CSS, JavaScript, and Bootstrap.
-This project allows users to:
+## 📝 Description
 
-📚 Add books by name, author, and category (e.g., Fiction, Programming, Cooking)
+**Library Hub** is a modern, responsive front-end web application built using **HTML, CSS, and JavaScript**. It allows users to add books with details like name, author, and type (e.g., Fiction, Programming, Cooking), view them in a list, and search/filter through the list interactively.
 
-🔍 Search books with a dynamic search bar
+The project also includes a visually appealing **landing page with a background video**, making it suitable for UI/UX portfolio demonstrations and front-end development practice.
 
-🎥 Enjoy a visually appealing landing page with background video
+---
 
-📱 Experience smooth, mobile-friendly design
+## ⚙️ Installation
 
-Explore your personal book collection in a simple and interactive UI.
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/your-username/library-hub.git
+   ```
 
-🛠 Technologies Used:
+2. Navigate into the project folder:
+   ```bash
+   cd library-hub
+   ```
 
-HTML5, CSS3, Bootstrap 4
+3. Open the project in your browser:
+   - Launch `index1.html` to view the landing page.
+   - Or open `index.html` directly to access the book management UI.
 
-JavaScript (DOM Manipulation)
+> ✅ No server or backend setup is needed. All files run in the browser.
 
-Background video integration
+---
 
-Responsive Web Design
+## 📦 Dependencies
 
-🔧 Installation
+This project **does not use any external frameworks** like Bootstrap. It is built purely using:
 
-Clone the repository:
+- **HTML5**
+- **CSS3**
+- **Vanilla JavaScript**
+- Local assets:
+  - Background video (`images/video.mp4`)
+  - Logo image (`images/logo.png`)
 
-bash
-Copy
-Edit
-git clone https://github.com/your-username/library-hub.git
-Navigate into the project folder:
-
-bash
-Copy
-Edit
-cd library-hub
-Open index1.html or index.html in your browser:
-
-For landing page with background video: index1.html
-
-For book management UI directly: index.html
-
-✅ No server required. This is a front-end only project – just open the files in your browser.
-
-📦 Dependencies
-
-This project uses the following CDN-based libraries (no installation needed):
-
-Bootstrap 4.3.1
-
-jQuery (Slim)
-
-Popper.js
-
-Background video (ensure images/video.mp4 is present)
-
-Logo image (ensure images/logo.png is present)
-
-Make sure to maintain the folder structure as:
-
-css
-Copy
-Edit
+Ensure the folder structure looks like this:
+```
 library-hub/
-
 ├── index.html
-
 ├── index1.html
-
 ├── style.css
-
-├── images/
-
-│   ├── video.mp4
-
-│   └── logo.png
-
-💡 Usage
-
-🏠 Launch index1.html to see the Library Hub landing page with a call-to-action button.
-
-📖 Click "Explore" to navigate to the main book management page.
-
-✍️ Enter book details (name, author, type) and click "Add Book".
-
-📑 The books will be listed in a table below.
-
-🔎 Use the search bar to filter books live.
-
-📂 Folder Structure
-
-bash
-Copy
-Edit
-library-hub/
-
-├── index.html          # Main book management interface
-
-├── index1.html         # Landing page with background video
-
-├── style.css           # Custom styling
-
 └── images/
+    ├── video.mp4
+    └── logo.png
+```
 
-   ├── logo.png        # Navbar logo
-    
-  └── video.mp4       # Background video
+---
 
-    
-📬 Contact
+## ▶️ Usage
 
-Created by Aryan Tyagi
+1. Open `index1.html` to view the animated landing page with a background video.
+2. Click **"Explore"** to navigate to the main book list interface.
+3. Add a book by filling in:
+   - 📘 Book Name
+   - ✍️ Author
+   - 🏷️ Type (Fiction, Programming, or Cooking)
+4. View all added books in a table format.
+5. Use the **search bar** to filter your books instantly.
 
-📧 Email: aryantyagi761@gmail.com
+---
 
-🔗 LinkedIn: linkedin.com/in/aryantyagiii
+## 👤 Author
+
+**Aryan Tyagi**  
+📧 Email: aryantyagi761@gmail.com  
+🔗 GitHub: [github.com/aryantyagiii](https://github.com/aryantyagiii)  
+🔗 LinkedIn: [linkedin.com/in/aryantyagiii](https://linkedin.com/in/aryantyagiii)
 
 
 
